@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 body, html, .content-title, p {
     margin: 0;
     padding: 0;
@@ -51,5 +50,5 @@ li a:hover {
 }
 
 nav ul img:hover {
-    background-color: #333;
+    border-bottom: #333 solid 5px;
 }
