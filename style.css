@@ -26,6 +26,7 @@ li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
+    padding-top: 2px;
     text-decoration: none;
     font-family: Raleway, sans-serif;
     border-bottom: transparent solid 5px;
@@ -50,6 +51,10 @@ li a:hover {
     outline: none;
 }
 
+nav-ul img {
+    border-bottom: transparent solid 5px;
+}
+
 nav ul img:hover {
-    
+    border-color: white;
 }
