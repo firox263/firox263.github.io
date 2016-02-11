@@ -50,5 +50,6 @@ li a:hover {
 }
 
 nav ul img:hover {
-    border-bottom: #333 solid 5px;
+    border-bottom: #FFF solid 5px;
+    box-sizing: border-box;
 }
