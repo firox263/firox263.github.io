@@ -33,7 +33,7 @@ li a {
 }
 
 li a:hover {
-    border-color: white;
+    border-color: orange;
 }
 
 .textbox input{
