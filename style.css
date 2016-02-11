@@ -1,7 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
-body, html {
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+body, html, .content-title, p {
     margin: 0;
     padding: 0;
+    font-family: Roboto, sans-serif;
 }
 
 ul {
@@ -9,11 +11,15 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #2196F3;
+    background-color: #03A9F4;
 }
 
-li {
+.left {
     float: left;
+}
+
+.right {
+    float: right;
 }
 
 li a {
@@ -25,7 +31,25 @@ li a {
     font-family: Raleway, sans-serif;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #1976D2;
+    background-color: #333;
+}
+
+.textbox input{
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    font-family: Raleway, sans-serif;
+    border-bottom: white 2px solid;
+    color: white;
+    margin-top: 11px;
+    margin-right: 5px;
+}
+
+.textbox input:focus {
+    outline: none;
+}
+
+nav ul img:hover {
+    background-color: #333;
 }
