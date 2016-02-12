@@ -58,6 +58,10 @@ li a:hover {
     border-color: orange;
 }
 
+.textbox input:hover {
+    border-color: orange;
+}
+
 nav ul img {
     border-bottom: transparent solid 5px;
 }
