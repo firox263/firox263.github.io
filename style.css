@@ -34,6 +34,7 @@ li a {
 
 li a:hover {
     border-color: orange;
+    color: orange;
 }
 
 .textbox input{
@@ -51,10 +52,10 @@ li a:hover {
     outline: none;
 }
 
-nav-ul img {
+nav ul img {
     border-bottom: transparent solid 5px;
 }
 
 nav ul img:hover {
-    border-color: white;
+    border-color: orange;
 }
