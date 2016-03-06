@@ -11,7 +11,8 @@ ul {
     padding: 0;
     overflow: hidden;
     /*background-color: #03A9F4;*/
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/15/Smoothsolidnoise.png");
+    background-image: url("https://static.pexels.com/photos/1526/dark-blur-blurred-gradient.jpg");
+	background-size: 1000%;
 }
 
 .left {
